@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.perfil {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: teal;
+}
+
+img {
+    position: relative;
+    top: -20px;
+    left: -20px;
+    border-radius: 50%;
+}
+
+h2, p {
+    text-align: center;
+}
